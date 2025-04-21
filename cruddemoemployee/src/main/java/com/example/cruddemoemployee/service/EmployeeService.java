@@ -1,11 +1,10 @@
-package com.example.cruddemoemployee.dao;
+package com.example.cruddemoemployee.service;
 
 import com.example.cruddemoemployee.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
-
+public interface EmployeeService {
     List<Employee> findAll();
 
     Employee findById(int theId);
@@ -13,4 +12,5 @@ public interface EmployeeDAO {
     Employee save(Employee theEmployee);
 
     void deleteById(int theId);
+
 }

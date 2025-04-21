@@ -1,7 +1,7 @@
-package com.example.cruddemoemployee.rest;
+package com.example.cruddemoemployee.spring.jpa.rest;
 
-import com.example.cruddemoemployee.entity.Employee;
-import com.example.cruddemoemployee.service.EmployeeService;
+import com.example.cruddemoemployee.spring.jpa.entity.Employee;
+import com.example.cruddemoemployee.spring.jpa.service.EmployeeService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -18,7 +18,7 @@ public class StudentRestController {
     public void populateStudents() {
         students = new ArrayList<Student>();
         students.add(new Student(1, "John", "Doe"));
-        students.add(new Student(2, "Paul", "Smith"));
+        students.add(new Student(2, "Mary", "Smith"));
     }
 
     @GetMapping("/students")
